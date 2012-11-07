@@ -2,7 +2,7 @@
 $(document).bind("pageshow", function(){
 	
 	var canvas = $("#score")[0],
-		canvasOffset = $("#score").offset(),
+		canvasOffsetj = $("#score").offset(),
 		canvasSlider = $('#canvas-slider'),
 		selectNoteName = $('#select-note-name'),
 		selectNoteOctave = $('#select-note-octave'),
